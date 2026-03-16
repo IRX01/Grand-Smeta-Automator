@@ -63,16 +63,30 @@ Grand-Smeta
 Export Excel documents  
 ↓  
 Process **Base Estimate**  
+↓
+Save **Base Estimate**
+↓
+Process **Defective act**  
 ↓  
+Edit **Defective act**  
+↓
+Save **Defective act**
+↓
 Process **KS-2**  
-↓  
+↓ 
+Edit a **KS-2**  
+↓
 Extract total amount  
-↓  
-Process **KS-3**  
-↓  
-Synchronize values across documents  
-↓  
-Save processed files
+↓ 
+Save **KS-2**
+↓
+Process **KS-3**
+↓
+Edit a **KS-3**  
+↓
+Save **KS-3**
+↓
+End
 
 ## 📈 Benefits
 
