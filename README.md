@@ -58,34 +58,26 @@ A simple desktop interface allows the user to:
 
 The automation pipeline works as follows:
 
-Grand-Smeta  
+Grand-Smeta 
+  
 ↓  
-Export Excel documents  
+
+1. Export Excel documents  
+2. Process **Base Estimate**  
+3. Save **Base Estimate**  
+4. Process **Defective act**  
+5. Edit **Defective act**  
+6. Save **Defective act**  
+7. Process **KS-2**  
+8. Edit **KS-2**  
+9. Extract total amount  
+10. Save **KS-2**  
+11. Process **KS-3**  
+12. Edit **KS-3**  
+13. Save **KS-3**
+
 ↓  
-Process **Base Estimate**  
-↓
-Save **Base Estimate**
-↓
-Process **Defective act**  
-↓  
-Edit **Defective act**  
-↓
-Save **Defective act**
-↓
-Process **KS-2**  
-↓ 
-Edit a **KS-2**  
-↓
-Extract total amount  
-↓ 
-Save **KS-2**
-↓
-Process **KS-3**
-↓
-Edit a **KS-3**  
-↓
-Save **KS-3**
-↓
+
 End
 
 ## 📈 Benefits
