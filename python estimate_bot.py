@@ -548,7 +548,7 @@ time.sleep(0.5)
 pyautogui.hotkey('alt','f4')
 time.sleep(0.5)
 pyautogui.press("enter")
-ROOT_FOLDER = r"D:\1.  Диск F (25.02.2026)\   НОВЫЙ ГОРОД\  2025\12. декабрь - 2025"
+ROOT_FOLDER = r"D:\1.  Диск F (25.02.2026)\  2025\12. декабрь - 2025"
 save_excel_to_base_smeta(ROOT_FOLDER)
 ##
 ##Сохранение базовой сметы
