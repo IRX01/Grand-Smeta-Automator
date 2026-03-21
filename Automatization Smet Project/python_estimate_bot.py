@@ -54,16 +54,14 @@ def run_bot(Root_Folder):
         )
 
         print("Путь сохранения:", save_path)
+        pyperclip.copy(save_path)
 
         time.sleep(1)
 
-        # активируем поле имени файла
-        pyautogui.hotkey("alt", "n")
+        pyautogui.press("backspace")
 
         time.sleep(0.5)
-
-        # вставляем путь
-        pyperclip.copy(save_path)
+        
         pyautogui.hotkey("ctrl", "v")
 
         time.sleep(0.5)
@@ -393,16 +391,14 @@ def run_bot(Root_Folder):
         )
 
         print("Путь сохранения:", save_path)
+        pyperclip.copy(save_path)
 
         time.sleep(1)
 
-        # активируем поле имени файла
-        pyautogui.hotkey("alt", "n")
+        pyautogui.press("backspace")
 
         time.sleep(0.5)
-
-        # вставляем путь
-        pyperclip.copy(save_path)
+        
         pyautogui.hotkey("ctrl", "v")
 
         time.sleep(0.5)
@@ -460,16 +456,14 @@ def run_bot(Root_Folder):
         )
 
         print("Путь сохранения:", save_path)
+        pyperclip.copy(save_path)
 
         time.sleep(1)
 
-        # активируем поле имени файла
-        pyautogui.hotkey("alt", "n")
+        pyautogui.press("backspace")
 
         time.sleep(0.5)
-
-        # вставляем путь
-        pyperclip.copy(save_path)
+        
         pyautogui.hotkey("ctrl", "v")
 
         time.sleep(0.5)
@@ -518,13 +512,13 @@ def run_bot(Root_Folder):
     Adress = Base_name.split("г. ")[1]
     Estimate_number = Base_name.split(" ")[0]
     Estimate_number = Estimate_number.split("№")[1]
-    print(f"НОМЕР СМЕТЫ БЛЯТЬ---- {Estimate_number}")
+    print(f"НОМЕР СМЕТЫ ---- {Estimate_number}")
     date = get_date_from_estimate(Base_name)
     Last_day_date = get_last_day_of_month(date)
     First_day_date = get_first_day_of_month(date)
-    print(f"ПОСЛЕДНИЙ ДЕНЬ БЛЯТЬ---- {Last_day_date}")
-    print(f"ПЕРВЫЙ ДЕНЬ БЛЯТЬ---- {First_day_date}")
-    print(f"АДРЕС БЛЯТЬ ---- {Adress}")
+    print(f"ПОСЛЕДНИЙ ДЕНЬ ---- {Last_day_date}")
+    print(f"ПЕРВЫЙ ДЕНЬ ---- {First_day_date}")
+    print(f"АДРЕС ---- {Adress}")
     ##
     ##Получение названия сметы, даты и номера для нового акта
     ##
